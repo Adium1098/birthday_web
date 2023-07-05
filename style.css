@@ -6,7 +6,7 @@
 }
 body{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bday.gif);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./bday.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,21 +40,23 @@ body{
     padding: 1.5rem;
 }
 .outside{
-    background-color: blanchedalmond;
+    background-color: rgb(246, 177, 238);
     box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
     position: absolute;
     backface-visibility: hidden;
 }
-.outside h1{
-    font-size: 3rem;
+.outside h2{
+    font-size: 2.5rem;
     font-weight: bold;
-    color: salmon;
+    color: rgb(141, 175, 239);
     margin-bottom: 30px;
+    backface-visibility: hidden; 
 }
 .inside{
     background-color: rgb(255, 244, 79);
     box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
     transform: rotateY(180deg);
+    backface-visibility: hidden; 
 }
 .inside h3{
     font-size: 1.2rem;
